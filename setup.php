@@ -19,6 +19,9 @@ function plugin_init_tagesabschlusse() {
 
    // Add a menu entry in the "Tools" menu
    $PLUGIN_HOOKS['menu_toadd']['tagesabschlusse'] = ['tools' => 'PluginTagesabschlusseDashboard'];
+
+   // Add JavaScript for Timer
+   $PLUGIN_HOOKS['add_javascript']['tagesabschlusse'] = ['js/timer.js'];
 }
 
 /**
