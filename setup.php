@@ -5,7 +5,7 @@ define('PLUGIN_TAGESABSCHLUSSE_VERSION', '1.0.0');
 // Minimal GLPI version, inclusive
 define('PLUGIN_TAGESABSCHLUSSE_MIN_GLPI', '10.0.0');
 // Maximum GLPI version, exclusive
-define('PLUGIN_TAGESABSCHLUSSE_MAX_GLPI', '10.1.99');
+define('PLUGIN_TAGESABSCHLUSSE_MAX_GLPI', '11.0.2');
 
 /**
  * Init the hooks of the plugin.
