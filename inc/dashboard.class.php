@@ -19,7 +19,7 @@ class PluginTagesabschlusseDashboard extends CommonGLPI {
          $date = $_GET['date'];
       }
 
-      $users_id = 0;
+      $users_id = Session::getLoginUserID();
       if (isset($_GET['users_id'])) {
          $users_id = $_GET['users_id'];
       }
